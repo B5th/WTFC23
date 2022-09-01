@@ -1,76 +1,30 @@
-  body { 
-    background-color: rgb(100, 90, 90);
-    }
-  
-    .style{
-     display: block;
-     padding: 64px;
-     background-color: rgb(100, 90, 90);
-     color: white;
-     text-align: center;
-    }
+   * {
+    padding:0;
+    margin:0;
+   }
+ 
+ .box {
+    height: 200px
 
-    .class-item{
-      display:inline-block;
-      padding: 8px 10px;
-      color: white;
-      background-color: rgb(125, 109, 109);
-      border-radius: 50px;
-      font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;}
-    
-    .class-item:hover {
-     background-color: rgb(245, 245, 245);
-     color: black;
-     cursor: pointer; }
-
-     .discover{
-      display: inline-block;
-      padding:8px 10px;
-      color:black;
-      background-color: white;
-      border-radius: 50px;
-      font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
-     }
-     .flexwrapper{
-      height: 100vh;
-      background-color: white;
-      display: flex;
-      flex-direction: row;
-      align-items: stretch;
-      }
-     .main-flex{
-      background-color: white;
-      flex-basis: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-     }
-
-     .other-flex{
-      background-color: rgb(215, 208, 208);
-      flex-basis: 50%;
-    }
-
-      .trial{
-        background-color: blue;
-        flex-basis: 50%;
-      }
-
-      h1{
-        font-weight: bolder;
-        font-size: x-large;
-      }
-      p{
-        font-size: larger;
-      }
-      .dark-box{
-        position: absolute;
-        top: 10px;
-        left: 20px;
-        background-color: black;
-      }
+ }
+ .box-1 {
+  background-color: blue;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+ }
+ .box-2 {
+  background-color: gold;
+ }
+ .box-3 {
+  background-color: purple;
+ }
+ .box-4 {
+  background-color: green;
+ }
+ .box-5 {
+  background-color: brown;
+ }
+ .box-6 {
+  background-color: plum;
+ }
