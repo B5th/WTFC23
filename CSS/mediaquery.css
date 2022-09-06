@@ -7,9 +7,16 @@
     color: white;
     height: 200px;
 }
-@media (min-width: 1000px) { 
+.notest {
+    display: none;
+}
+@media (max-width: 375px) { 
     .wrapper {
     background-color: blue;
-    height: 100px;
+    display: none;
     }
+
+.notest {
+    display: block;
+}
 }
