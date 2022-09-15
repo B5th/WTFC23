@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.inner-container {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .hero__section {
+    width: 100%;
+    height: 740px;
+    background-image: url(../Assets/images/Amusan-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .nav-list {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-right: 92px;
+    padding-bottom: 26px;
+  }
+  
+  .nav-list-item {
+    font-family: "Lato";
+    display: flex;
+    color: #a6a6a6;
+    margin-left: 30px;
+  }
+  
+  .nav-link {
+    color: currentColor;
+    line-height: 19px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .profile {
+    width: 100%;
+    padding-top: calc(181px - 71px);
+    max-width: 467px;
+  }
+  
+  .name {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "Lato";
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .btn {
+    padding: 26px 62px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .icon_list {
+    position: absolute;
+    bottom: 55.59px;
+    right: 100px;
+  }
+  
+  .icon_listitem {
+    display: flex;
+    font-size: 24px;
+  }
+  
+  .icon_link {
+    color: #404040;
+  }
+  
+  .icon_listitem + .icon_listitem {
+    margin-top: 29.5px;
+  }
+
+  .mobile_btn {
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+    }
+  
+    .icon_list {
+      display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+  
+    .profile {
+      position: absolute;
+      bottom: 40px;
+      color: white;
+      max-width: 284px;
+    }
+  
+    .name {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 16px;
+    }
+  
+    .description {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 14px;
+    }
+  
+    .mobile_btn {
+      display: block;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      padding-top: 37px
+    }
+  }
+  .section_two-wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 69px;
+}
+
+.image-wrapper {
+    width: 505px;
+    height: 636.78px;
+    flex-shrink: 0;
+    margin-right: 19.92px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    font-family: "lato";
+    font-size: 32px;
+    line-height: 21px;
+    margin-bottom: 38px;
+    color: #404040;
+    margin-left: 20px;
+    padding-top: 17px;
+}
+p {
+font-family: 'Lato';
+font-size: 16px;
+line-height: 24px;
+color: #404040;
+margin-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 82px;
+  
+  }
+  
+  
+  
+  .gallery_items {
+    width: 400px;
+    height: 516px;
+    flex-shrink: 0;
+    
+    
+  }
+  
+  .gallery > .gallery_items:nth-child(-n + 3) {
+    margin-bottom: 40px
+  }
+  
+  .galler_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .part-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  h2 {
+    
+    color: #404040;
+    padding-top: 12px;
+    margin-bottom: 16px;
+    font-family: 'Lato';
+    font-size: 32px;
+    line-height: 21px;
+  }
+  .para {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 21px;
+    color: #404040;
+    }
+
