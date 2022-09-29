@@ -6,7 +6,7 @@
 
                          //OR 
 
-   for (let num = 1000; num >=1; num = num - 1) {
-     console.log (num)
+   for (let i = 1000; i >=1; i--) {
+     console.log (i)
   }                      
                            
