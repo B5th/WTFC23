@@ -4,10 +4,10 @@ let resultarr = [];
 let i = 0;
 
 while(i<newarr.length) {
-    resultarr.push (newarr[i] * 3);
+    resultarr.push(newarr[i] * 3);
     i++;
 }
-console.log ("i am", resultarr)
+console.log("i am", resultarr)
 
 
                //OR
