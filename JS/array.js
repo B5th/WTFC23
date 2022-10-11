@@ -1,10 +1,10 @@
 const classlist = ["big", 22, "happy", "birthday"]; 
   const ranarr = [22, {name:"sonia"}, [1,2,3,4], "yayyy"]
   
-  console.log (ranarr[2]);
+  console.log(ranarr[2]);
 
   ranarr[2] = "today"
-  console.log (ranarr[2]);
+  console.log(ranarr[2]);
 
 
 
@@ -13,7 +13,7 @@ const classlist = ["big", 22, "happy", "birthday"];
   ranarr[1] = "yeah" 
   ranarr[2] = 22
 
-  console.log (ranarr[0]);
+  console.log(ranarr[0]);
 
 
   const dob = [1,4,8,6,12];
