@@ -1,6 +1,6 @@
 
 const newarr = [2,5,6,7,8];
-let resultarr = [];
+let resultarr =[];
 let i = 0;
 
 while(i<newarr.length) {
