@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.in {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.pic {
+    height: 200px;
+    border-radius: 10px;
+}
